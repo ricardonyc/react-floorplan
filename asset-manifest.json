@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-floorplan/static/css/main.4b73e477.css",
+    "main.js": "/react-floorplan/static/js/main.cca01397.js",
+    "index.html": "/react-floorplan/index.html",
+    "main.4b73e477.css.map": "/react-floorplan/static/css/main.4b73e477.css.map",
+    "main.cca01397.js.map": "/react-floorplan/static/js/main.cca01397.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b73e477.css",
+    "static/js/main.cca01397.js"
+  ]
+}
