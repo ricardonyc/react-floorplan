@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.floorplan {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  grid: 0.2fr 0.5fr 0.4fr 1fr / 0.5fr 0.5fr 0.3fr 0.5fr 0.5fr;
+      grid-template-areas: "bedroom1 bedroom1 livingroom livingroom kitchen" "bedroom1 bedroom1 livingroom livingroom kitchen" "fullbath fullbath livingroom livingroom kitchen" "bedroom2 bedroom2 halfbath bedroom3 bedroom3";
+}
+
+.bedroom1,
+.bedroom2,
+.bedroom3 {
+  background: #2b7188;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bedroom1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: bedroom1;
+}
+
+.bedroom2 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: bedroom2;
+}
+
+.bedroom3 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 2;
+  grid-area: bedroom3;
+}
+
+.Full-bath,
+.Half-bath {
+  background: #728831;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Full-bath {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: fullbath;
+}
+
+.Half-bath {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  grid-area: halfbath;
+}
+
+.livingroom {
+  background: #c9ac81;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: livingroom;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.oven,
+.sink {
+  width: 50%;
+  text-align: center;
+}
+
+.oven {
+  background: #c94716;
+}
+
+.sink {
+  background: #935613;
+}
+
+.kitchen {
+  position: relative;
+  background: #f1a73b;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 5;
+  grid-area: kitchen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.kitchen .kitchen-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,6 +1,8 @@
 function Oven(){
     return(
-        <div className="oven"></div>
+        <div className="oven">
+            <h1>Oven</h1>
+        </div>
     )
 }
 

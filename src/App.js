@@ -1,12 +1,8 @@
-import './App.css';
-import FloorPlan from "./components/FloorPlan"
+import "./styles/style.css"
+import FloorPlan from "./components/FloorPlan";
 
 function App() {
-  return (
-    <div className="App">
-      <FloorPlan />
-    </div>
-  );
+  return <FloorPlan />;
 }
 
 export default App;
