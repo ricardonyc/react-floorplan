@@ -1,3 +1,3 @@
 # Per Scholas React HW
-### Screenshot
-![layout](public/layout.png)
+### Finished Screenshot
+![layout](public/layout-img.png)
